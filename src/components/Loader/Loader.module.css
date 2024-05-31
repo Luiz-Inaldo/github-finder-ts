@@ -1,0 +1,12 @@
+@keyframes spin {
+    to { transform: rotate(360deg) }
+}
+
+.loader {
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -25px;
+    font-size: 50px;
+}

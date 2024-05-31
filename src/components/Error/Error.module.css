@@ -1,0 +1,12 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.error img {
+    max-width: 250px;
+    max-height: 250px;
+}
